@@ -41,7 +41,7 @@ void Graph::displayShortestRoute() {
 	std::cout << std::endl << "Simulation finished..." << std::endl << std::endl;
 	std::cout << "Best solution found: ";
 	bestAnt->antOut();
-	std::cout << std::endl;
+	std::cout << std::endl << std::endl; 
 }
 
 void Graph::resetAnts() {

@@ -56,32 +56,32 @@ void ACOMenu::menu() {
 		case 1:
 			test = "4_city.txt";
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 2:
 			test = "5_city.txt";
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 3:
 			test = "6_city.txt";
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 4:
 			test = "17_city.txt";
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 5:
 			test = "26_city.txt";
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 6:
 			test = "48_city.txt";
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 7:
 			test = "";
@@ -90,18 +90,16 @@ void ACOMenu::menu() {
 			cin >> custOption;
 			G->numOfCities = custOption;
 			G->ACO(funcPtr, test);
-			cout << endl;
+			graphReset();
 			break;
 		case 8:
 			clrScr();
 			customMenu();
-			cout << endl;
 			break;
 		default:
 			cout << endl << "Invalid Option" << endl;
 			break;
 		}
-		graphReset();
 	}
 }
 
