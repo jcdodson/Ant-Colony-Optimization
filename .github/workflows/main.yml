@@ -20,5 +20,5 @@ jobs:
       steps:
         - uses: actions/checkout@v3
         - name: Build project
-          run: g++ ACO_v1.1.cpp ACOMenu.cpp Ant.cpp Edge.cpp Graph.cpp -std=c++17 -o ACO
+          run: g++ ACO_v1.1.cpp ACOMenu.cpp ACOMenu.h Ant.cpp Ant.h Edge.cpp Edge.h Graph.cpp Graph.h -std=c++17 -o ACO
   
