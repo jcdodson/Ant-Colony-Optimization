@@ -1,4 +1,5 @@
 #include "Graph.h"
+#include <climits>
 
 Graph::Graph() {
 	source = 1;
